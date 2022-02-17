@@ -14,9 +14,9 @@ console.log('Answer "yes" if the number is even, otherwise answer "no".');
 for (let i = 0; i < 3; i += 1) {
   const number = getNumber();
   const correctAnswer = getCorrectAnswer(number);
+
   console.log(`Question: ${number}`);
   const userAnswer = getAnswer();
-  console.log(`Your answer: ${userAnswer}`);
 
   if (userAnswer === correctAnswer) {
     console.log('Correct!');

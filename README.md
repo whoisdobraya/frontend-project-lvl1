@@ -6,4 +6,4 @@
 <a><img src='https://github.com/whoisdobraya/frontend-project-lvl1/actions/workflows/check-lint.yml/badge.svg'><a>
 
 Asciinema
-<a>https://asciinema.org/a/y86MJeXOv4dboFyo9swGLxWaI</a>
+<a>https://asciinema.org/a/T8ZMv8wtGbY09Tj21gRxbduGk</a>
