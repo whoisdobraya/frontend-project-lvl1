@@ -4,4 +4,6 @@ import getUserName from '../src/cli.js';
 
 console.log('Welcome to the Brain Games!');
 
-getUserName();
+const userName = getUserName() || 'Anonymous';
+const greeting = `Hello, ${userName}!`;
+console.log(greeting);
