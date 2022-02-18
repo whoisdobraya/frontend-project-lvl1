@@ -4,7 +4,8 @@
   "description": "[![Actions Status](https://github.com/whoisdobraya/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/whoisdobraya/frontend-project-lvl1/actions)",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-culc": "bin/brain-culc.js"
   },
   "type": "module",
   "main": "index.js",
