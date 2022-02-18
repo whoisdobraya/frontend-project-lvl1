@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-import goPlay from '../src/index.js';
-
 const operators = ['-', '+', '*'];
 const mathOperashions = {
   '-': (a, b) => a - b,
@@ -27,4 +24,4 @@ const brainCulc = {
   },
 };
 
-goPlay(brainCulc);
+export default brainCulc;
