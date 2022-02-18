@@ -6,7 +6,7 @@ const mathOperashions = {
 };
 const MAXIMUM_NUMBER = 25;
 
-const brainCulc = {
+const brainCalc = {
   rule: 'What is the result of the expression?',
   numbers: [],
   operator: '',
@@ -24,4 +24,4 @@ const brainCulc = {
   },
 };
 
-export default brainCulc;
+export default brainCalc;
