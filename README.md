@@ -8,5 +8,5 @@
 <h2>Asciinema</h2>
 <h3>Brain-even</h3>
 <a href="https://asciinema.org/a/osMKU5xp1v81ZTCKacaMGQtN2" target="_blank"><img src="https://asciinema.org/a/osMKU5xp1v81ZTCKacaMGQtN2.svg" /></a>
-<h3>Brain-culc</h3>
+<h3>Brain-calc</h3>
 <a href="https://asciinema.org/a/hqFg4qqHDvKTFXqIJP3ot0ESk" target="_blank"><img src="https://asciinema.org/a/hqFg4qqHDvKTFXqIJP3ot0ESk.svg" /></a>
