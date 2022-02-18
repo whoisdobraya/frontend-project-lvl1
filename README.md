@@ -7,6 +7,6 @@
 
 <h2>Asciinema</h2>
 <h3>Brain-even</h3>
-<script id="asciicast-osMKU5xp1v81ZTCKacaMGQtN2" src="https://asciinema.org/a/osMKU5xp1v81ZTCKacaMGQtN2.js" async></script>
+[![asciicast](https://asciinema.org/a/hqFg4qqHDvKTFXqIJP3ot0ESk.svg)](https://asciinema.org/a/hqFg4qqHDvKTFXqIJP3ot0ESk)
 <h3>Brain-culc</h3>
-<script id="asciicast-hqFg4qqHDvKTFXqIJP3ot0ESk" src="https://asciinema.org/a/hqFg4qqHDvKTFXqIJP3ot0ESk.js" async></script>
+[![asciicast](https://asciinema.org/a/osMKU5xp1v81ZTCKacaMGQtN2.svg)](https://asciinema.org/a/osMKU5xp1v81ZTCKacaMGQtN2)
