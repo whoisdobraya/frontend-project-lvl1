@@ -1,3 +1,5 @@
+import getNumber from '../modules/getNumber.js';
+
 const operators = ['-', '+', '*'];
 const mathOperashions = {
   '-': (a, b) => a - b,
@@ -10,13 +12,12 @@ const brainCalc = {
   rule: 'What is the result of the expression?',
   numbers: [],
   operator: '',
-  getNumber() { return Math.floor(Math.random() * MAXIMUM_NUMBER); },
+  getNumber,
   getOperator() { return Math.floor(Math.random() * (operators.length)); },
-  makeNumbers() { return [this.getNumber(), this.getNumber()]; },
   makeTask() {
     this.operator = operators[this.getOperator()];
-    this.numbers[0] = this.getNumber();
-    this.numbers[1] = this.getNumber();
+    this.numbers[0] = this.getNumber(MAXIMUM_NUMBER);
+    this.numbers[1] = this.getNumber(MAXIMUM_NUMBER);
     return `${this.numbers[0]} ${this.operator} ${this.numbers[1]}`;
   },
   correctAnswer() {
