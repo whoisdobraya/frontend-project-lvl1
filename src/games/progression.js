@@ -7,14 +7,14 @@ const brainProgression = {
   maxNumber: 10,
   replacingNumber: 0,
   rule: 'What number is missing in the progression?',
-  getNumber,
-  makeTask() {
-    const progression = getProgression(this.maxNumber);
-    const changingIndex = this.getNumber(MAXIMUM_INDEX);
-    this.replacingNumber = progression[changingIndex];
+  makeTask: () => {
+    const progression = getProgression(brainProgression.maxNumber);
+    const changingIndex = getNumber(MAXIMUM_INDEX);
+    brainProgression.replacingNumber = progression[changingIndex];
     progression[changingIndex] = '..';
     return progression.join(' ');
   },
-  correctAnswer() { return `${this.replacingNumber}`; },
+  correctAnswer: () => `${brainProgression.replacingNumber}`,
 };
+
 export default brainProgression;

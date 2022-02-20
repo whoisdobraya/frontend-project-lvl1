@@ -5,13 +5,12 @@ const brainGcd = {
   maxNumber: 100,
   rule: 'Find the greatest common divisor of given numbers.',
   numbers: [],
-  getNumber,
-  makeTask() {
-    this.numbers[0] = this.getNumber(this.maxNumber);
-    this.numbers[1] = this.getNumber(this.maxNumber);
-    return `${this.numbers[0]} ${this.numbers[1]}`;
+  makeTask: () => {
+    brainGcd.numbers[0] = getNumber(brainGcd.maxNumber);
+    brainGcd.numbers[1] = getNumber(brainGcd.maxNumber);
+    return `${brainGcd.numbers[0]} ${brainGcd.numbers[1]}`;
   },
-  correctAnswer() { return `${getGcd(this.numbers[0], this.numbers[1])}`; },
+  correctAnswer: () => `${getGcd(brainGcd.numbers[0], brainGcd.numbers[1])}`,
 };
 
 export default brainGcd;

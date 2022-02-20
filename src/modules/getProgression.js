@@ -1,7 +1,7 @@
 import getDiffOfProgression from './getDiffOfProgression.js';
 import getNumber from './getNumber.js';
 
-export default function getProgression(maxNumber) {
+export default (maxNumber) => {
   const diffOfProgression = getDiffOfProgression(maxNumber);
   const firstNumber = getNumber(maxNumber);
   const task = [];
@@ -11,4 +11,4 @@ export default function getProgression(maxNumber) {
     j -= 1;
   }
   return task;
-}
+};

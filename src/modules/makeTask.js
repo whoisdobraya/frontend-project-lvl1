@@ -1,4 +1,7 @@
-export default function makeTask() {
-  const number = this.getNumber(this.maxNumber);
-  return number === 0 ? this.makeTask() : number;
-}
+import getNumber from './getNumber.js';
+
+const makeTask = (maxNumber) => {
+  const number = getNumber(maxNumber);
+  return number === 0 ? makeTask() : number;
+};
+export default makeTask;
