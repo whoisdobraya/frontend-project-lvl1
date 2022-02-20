@@ -6,9 +6,9 @@ const mathOperashions = {
   '+': (a, b) => a + b,
   '*': (a, b) => a * b,
 };
-const MAXIMUM_NUMBER = 25;
 
 const brainCalc = {
+  maxNumber: 25,
   rule: 'What is the result of the expression?',
   numbers: [],
   operator: '',
@@ -16,8 +16,8 @@ const brainCalc = {
   getOperator() { return Math.floor(Math.random() * (operators.length)); },
   makeTask() {
     this.operator = operators[this.getOperator()];
-    this.numbers[0] = this.getNumber(MAXIMUM_NUMBER);
-    this.numbers[1] = this.getNumber(MAXIMUM_NUMBER);
+    this.numbers[0] = this.getNumber(this.maxNumber);
+    this.numbers[1] = this.getNumber(this.maxNumber);
     return `${this.numbers[0]} ${this.operator} ${this.numbers[1]}`;
   },
   correctAnswer() {
